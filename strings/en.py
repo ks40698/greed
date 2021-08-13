@@ -56,10 +56,10 @@ csv_caption = "A 📄 .csv file containing all transactions stored in the bot da
 
 # Conversation: the start command was sent and the bot should welcome the user
 conversation_after_start = "Hello!\n" \
-                           "Welcome to greed!\n" \
+                           "Welcome to Dooo India!\n" \
                            "This is the 🅱️ <b>Beta</b> version of the software.\n" \
                            "It is fully usable, but there may be some bugs are still present.\n" \
-                           "If you find any, please report them at https://github.com/Steffo99/greed/issues."
+                           "If you find any, please report them at @DoooIndia."
 
 # Conversation: to send an inline keyboard you need to send a message with it
 conversation_open_user_menu = "What would you like to do?\n" \
@@ -355,14 +355,16 @@ refund_reason = "Refund reason:\n" \
                 "{reason}"
 
 # Info: informazioni sul bot
-bot_info = 'This bot is using <a href="https://github.com/Steffo99/greed">greed</a>,' \
-           ' a framework by @Steffo for Telegram payments released under the' \
-           ' <a href="https://github.com/Steffo99/greed/blob/master/LICENSE.txt">' \
+bot_info = 'This bot is using telegram payment api 2.0 with Strip api. ,' \
+           ' a framework by @HxBots for Telegram payments released under the' \
+           ' <a href="https://github.com/hxbots/Strip_TgBot/blob/master/LICENSE.txt">' \
            'Affero General Public License 3.0</a>.\n'
 
 # Help: guide
-help_msg = "greed's guide is available at this address:\n" \
-           "https://github.com/Steffo99/greed/wiki"
+help_msg = "Pay to this bot and get premium subscription at 'Dooo App'\n" \
+           "<i>Click Products> Select Your Preferred Product(Daily, Weekly, Monthly, Yearly) > Add Product To Your Cart > Add Funds > ND Buy Your Product:>/i>\n" \
+           "After Successful Transaction You Will Receive An E-Mail From:info@rehost.tech With Your Coupon Code For The App: \n" \
+           "If After This You Have Any Problem You Can Contact Me {shopkeepers}"
 
 # Help: contact shopkeeper
 contact_shopkeeper = "Currently, the staff available to provide user assistance is composed of:\n" \
