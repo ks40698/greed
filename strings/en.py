@@ -144,10 +144,10 @@ menu_add_credit = "💵 Add funds"
 menu_bot_info = "ℹ️ Bot info"
 
 # User menu: cash
-menu_cash = "💵 With cash"
+menu_cash = "💵 Paytm, PhonePay, GPay, UPI"
 
 # User menu: credit card
-menu_credit_card = "💳 By credit card"
+menu_credit_card = "💳 Strip (Credit Card)"
 
 # Admin menu: products
 menu_products = "📝️ Products"
@@ -310,7 +310,8 @@ edit_current_value = "The current value is:\n" \
                      "<i>Press the Skip button below this message to keep the same value.</i>"
 
 # Payment: cash payment info
-payment_cash = "You can pay in cash at the physical location of the store.\n" \
+payment_cash = "You can pay money in UPI, Paytm, GPay, PhonePay.\n" \
+               "Contact @Kirodewal for Further Steps.\n\n"
                "Pay at checkout, and give this id to the manager:\n" \
                "<b>{user_cash_id}</b>"
 
