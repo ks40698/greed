@@ -65,7 +65,7 @@ credit_card_token = "284685063:TEST:ZGRmYmQzMTdkNTc2"
 # Minimum wallet payment accepted (in miniumum currency units, $1.00 = 100 units)
 min_amount = 100
 # Maximum wallet payment accepted (in miniumum currency units, $1.00 = 100 units)
-max_amount = 10000
+max_amount = 1000000
 # The preset selections that can be made when adding credit to the wallet with a credit card
 # Presets are pipe-separated |, and should never be outside the bounds provided by the min_amount and max_amount options
 payment_presets = [10.00, 30.00, 50.00, 400.00]
@@ -89,14 +89,14 @@ fee_fixed = 0
 # This data will be stored in the database
 name_required = true
 email_required = true
-phone_required = true
+phone_required = false
 
 
 # Bot appearance settings
 [Appearance]
 # Display the full order information to the customers instead of the shortened version
 # The full order information includes the order number and the timestamp of the order placement
-full_order_info = false
+full_order_info = true
 # Allow balance refill during the order checkout in case of unsufficient balance
 refill_on_checkout = true
 # Display welcome message (conversation_after_start) when the user sends /start
@@ -110,4 +110,4 @@ display_welcome_message = true
 format = "{asctime} | {threadName} | {name} | {message}"
 # Logging level: ignore all log entries with a level lower than the specified one
 # Valid options are FATAL, ERROR, WARNING, INFO, and DEBUG
-level = "INFO"
+level = "DEBUG"
