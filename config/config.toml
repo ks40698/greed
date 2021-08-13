@@ -33,13 +33,13 @@ engine = "postgresql://mkfyqzgxqrphcx:c953cb58a8eaac7a5f117ea5a331866001cd6ba392
 token = "1929795899:AAFr3oN9oDHh8vitZFXhrd-x7FyldRQMy0c"
 # Time in seconds before a conversation (thread) with no new messages expires
 # A lower value reduces memory usage, but can be inconvenient for the users
-conversation_timeout = 7200
+conversation_timeout = 72000
 # Time to wait before sending another update request if there are no messages
 long_polling_timeout = 30
 # Time in seconds before retrying a request if it times out
 timed_out_pause = 1
 # Time in seconds before retrying a request that returned an error
-error_pause = 5
+error_pause = 3
 # Number of connections to keep in the connection pool
 con_pool_size = 10
 
@@ -63,12 +63,12 @@ currency_symbol = "₹"
 # credit_card_token =
 credit_card_token = "284685063:TEST:ZGRmYmQzMTdkNTc2"
 # Minimum wallet payment accepted (in miniumum currency units, $1.00 = 100 units)
-min_amount = 1
+min_amount = 100
 # Maximum wallet payment accepted (in miniumum currency units, $1.00 = 100 units)
-max_amount = 1000
+max_amount = 10000
 # The preset selections that can be made when adding credit to the wallet with a credit card
 # Presets are pipe-separated |, and should never be outside the bounds provided by the min_amount and max_amount options
-payment_presets = [1.00, 10.00, 49.00, 399.00]
+payment_presets = [10.00, 30.00, 49.00, 399.00]
 # Suggested tip amounts in minimum currency units
 # Maximum 4 values; if the array is empty, the feature is disabled
 # Enabling this feature is not recommended, as it may be confusing for the users
