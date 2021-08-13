@@ -4,7 +4,7 @@
 # Part of the translation by https://github.com/DarrenWestwood
 
 # Currency symbol
-currency_symbol = "₹"
+currency_symbol = "$"
 
 # Positioning of the currency symbol
 currency_format_string = "{symbol} {value}"
@@ -362,7 +362,7 @@ bot_info = 'This bot is using telegram payment api 2.0 with Strip api. ,' \
 
 # Help: guide
 help_msg = "Pay to this bot and get premium subscription at 'Dooo App'\n" \
-           "<i>Click Products> Select Your Preferred Product(Daily, Weekly, Monthly, Yearly) > Add Product To Your Cart > Add Funds > ND Buy Your Product:>/i>\n" \
+           "<i>Click Products> Select Your Preferred Product(Daily, Weekly, Monthly, Yearly) > Add Product To Your Cart > Add Funds > ND Buy Your Product:</i>\n" \
            "After Successful Transaction You Will Receive An E-Mail From:info@rehost.tech With Your Coupon Code For The App: \n" \
            "If After This You Have Any Problem You Can Contact Me {shopkeepers}"
 
