@@ -311,7 +311,7 @@ edit_current_value = "The current value is:\n" \
 
 # Payment: cash payment info
 payment_cash = "You can pay money in UPI, Paytm, GPay, PhonePay.\n" \
-               "Contact @Kirodewal for Further Steps.\n\n"
+               "Contact @Kirodewal for Further Steps.\n\n" \
                "Pay at checkout, and give this id to the manager:" \
                "<b>{user_cash_id}</b>"
 
