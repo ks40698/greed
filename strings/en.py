@@ -355,20 +355,20 @@ refund_reason = "Refund reason:\n" \
                 "{reason}"
 
 # Info: informazioni sul bot
-bot_info = 'This bot is using telegram payment api 2.0 with Strip api. ,' \
+bot_info = '<b>This bot is using telegram payment api 2.0 with Strip api. ,</b>\n\n' \
            ' a framework by @HxBots for Telegram payments released under the' \
            ' <a href="https://github.com/hxbots/Strip_TgBot/blob/master/LICENSE.txt">' \
            'Affero General Public License 3.0</a>.\n'
 
 # Help: guide
-help_msg = "Pay to this bot and get premium subscription at 'Dooo App'\n" \
-           "<i>Click Products> Select Your Preferred Product(Daily, Weekly, Monthly, Yearly) > Add Product To Your Cart > Add Funds > ND Buy Your Product:</i>\n" \
-           "After Successful Transaction You Will Receive An E-Mail From:info@rehost.tech With Your Coupon Code For The App: \n" \
-           "If After This You Have Any Problem You Can Contact Me {shopkeepers}"
+help_msg = "<b>Pay to this bot and get premium subscription at 'Dooo App'</b>\n\n" \
+           "<b><i>Click Products> Select Your Preferred Product(Daily, Weekly, Monthly, Yearly) > Add Product To Your Cart > Add Funds > ND Buy Your Product:</b></i>\n\n" \
+           "<b>After Successful Transaction You Will Receive An E-Mail From:info@rehost.tech With Your Coupon Code For The App: </b>\n\n" \
+           "<b>If After This You Have Any Problem You Can Contact Me {shopkeepers}</b>"
 
 # Help: contact shopkeeper
-contact_shopkeeper = "Currently, the staff available to provide user assistance is composed of:\n" \
-                     "{shopkeepers}\n" \
+contact_shopkeeper = "The staff available to provide user assistance is composed of:\n" \
+                     "@Kirodewal\n@HxBots\n@DoooIndia\n\n" \
                      "<i>Click / Tap one of their names to contact them in a Telegram chat.</i>"
 
 # Success: product has been added/edited to the database
