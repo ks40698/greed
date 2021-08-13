@@ -24,7 +24,7 @@ fallback_language = "en"
 [Database]
 # The database engine you want to use.
 # Refer to http://docs.sqlalchemy.org/en/latest/core/engines.html for the possible settings.
-engine = "sqlite:///database.sqlite"
+engine = "postgresql://mkfyqzgxqrphcx:c953cb58a8eaac7a5f117ea5a331866001cd6ba392846c76977850e2a5d07d1b@ec2-52-2-118-38.compute-1.amazonaws.com:5432/d3q7p9t28717v0"
 
 
 # Telegram bot parameters
