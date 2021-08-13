@@ -4,7 +4,7 @@
 # Part of the translation by https://github.com/DarrenWestwood
 
 # Currency symbol
-currency_symbol = "€"
+currency_symbol = "₹"
 
 # Positioning of the currency symbol
 currency_format_string = "{symbol} {value}"
