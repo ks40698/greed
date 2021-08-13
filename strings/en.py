@@ -369,7 +369,7 @@ help_msg = "<b>Pay to this bot and get premium subscription at 'Dooo App'</b>\n\
 
 # Help: contact shopkeeper
 contact_shopkeeper = "The staff available to provide user assistance is composed of:\n" \
-                     "@Kirodewal\n@HxBots\n@DoooIndia\n\n" \
+                     "@Kirodewal\n@HxBots\n@Rehost_India\n\n" \
                      "<i>Click / Tap one of their names to contact them in a Telegram chat.</i>"
 
 # Success: product has been added/edited to the database
