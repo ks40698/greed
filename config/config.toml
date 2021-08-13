@@ -68,7 +68,7 @@ min_amount = 100
 max_amount = 10000
 # The preset selections that can be made when adding credit to the wallet with a credit card
 # Presets are pipe-separated |, and should never be outside the bounds provided by the min_amount and max_amount options
-payment_presets = [10.00, 25.00, 50.00, 100.00]
+payment_presets = [1.00, 10.00, 49.00, 399.00]
 # Suggested tip amounts in minimum currency units
 # Maximum 4 values; if the array is empty, the feature is disabled
 # Enabling this feature is not recommended, as it may be confusing for the users
@@ -81,8 +81,8 @@ max_tip_amount = 0
 # The formula for determining the total cost is:
 # cost = added_funds + added_funds * fee_percentage / 100 + fee_fixed
 # Set these values to 0 to disable the feature.
-fee_percentage = 2.9
-fee_fixed = 30
+fee_percentage = 0
+fee_fixed = 0
 # "Shipping" information
 # Telegram can ask for extra information when charging the user for a credit card transaction
 # Set to yes the data you want to be required
