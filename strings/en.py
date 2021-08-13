@@ -362,7 +362,7 @@ bot_info = '<b>This bot is using telegram payment api 2.0 with Strip api. ,</b>\
 
 # Help: guide
 help_msg = "<b>Pay to this bot and get premium subscription at 'Dooo App'</b>\n\n" \
-           "<b><i>Click Products> Select Your Preferred Product(Daily, Weekly, Monthly, Yearly) > Add Product To Your Cart > Add Funds > ND Buy Your Product:</b></i>\n\n" \
+           "<b><i>Click Products> Select Your Preferred Product(Daily, Weekly, Monthly, Yearly) > Add Product To Your Cart > Add Funds > ND Buy Your Product:</i></b>\n\n" \
            "<b>After Successful Transaction You Will Receive An E-Mail From:info@rehost.tech With Your Coupon Code For The App: </b>\n\n" \
            "<b>If After This You Have Any Problem You Can Contact Me {shopkeepers}</b>"
 
